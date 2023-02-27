@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Berk Tarzan",
+  title: "Merhabalar, Ben Berk",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Tutkulu bir web yazılım geliştiricisiyim. 🚀 Projelerinizi PHP, JavaScript, HTML5/CSS3 ve bir çok yeni teknoloji kütüphaneler/çatılar kullanarak tasarlayabilirim."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://discord.com/invite/QHjgfq5WAV", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/yberktarzan",
+  linkedin: "https://www.linkedin.com/in/yberktarzan/",
+  gmail: "y.berktarzan@gmail.com",
+  medium: "https://medium.com/@yberktarzan",
+  instagram: "https://instagram.com/berktarzan",
+  twitter : "https://twitter.com/berk_tarzan",
+  kaggle : "https://www.kaggle.com/yberktarzan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +48,19 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Neler Yaparım?",
+  subTitle: "Çılgın bir öğrenme arzusu ve sıkı bir disiplin sayesinde zorlu projelerinizi geliştirebilirim.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Her cihaza uyumlu yönetim panelli web siteleri geliştirebilirim. "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Web uygulaması projelerinizin backend yazılımlarını geliştirebilirim. "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ 3. parti yazılımların projenize entegrasyonunu sağlayabilirim."
+    ),
+    emoji(
+      "⚡ Sosyal medya hesaplarınızı ve reklamlarınızı yönetebilirim."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "JavaScript - TS",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -89,8 +92,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "npm",
@@ -101,20 +104,43 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "mangodb",
+      fontAwesomeClassname: "fab fa-envira"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +152,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "ISTANBUL AYDIN ÜNİVERSİTESİ",
+      logo: require("./assets/images/iaulogo.png"),
+      subHeader: "Lisans - Yazılım Mühendisliği",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I have studied basic software engineering subjects like Algorithms, DBMS, OS, AI etc."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +168,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Web Programlama", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Sosyal Medya Yönetimi | Produksiyon - Çekim",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Google İşletme ve Reklam",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +189,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Kurucu",
+      company: "Titan Bilişim Hizmetleri",
+      companylogo: require("./assets/images/x.png"),
+      date: "Kolektif House, Maslak/Istanbul",
+      desc: "Titan Bilişim Hizmetleri, günümüz teknolojilerini yakından takip ederek, sektöründeki lider şirketlere danışmanlık, tasarım, yazılım ve dijital pazarlama hizmetleri sunmaktadır.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Stajyer",
+      company: "Baykar Technologies",
+      companylogo: require("./assets/images/baykar.png"),
+      date: "Milli S/İHA Sistemleri Ar-Ge Üretim Tesisi, Istanbul",
+      desc: "Computer Vision / ML",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Founder",
+      company: "Kreatif Seven",
+      companylogo: require("./assets/images/kreatif.jpg"),
+      date: "Kolektif House, Maslak/Istanbul",
+      desc: "Dijital çağda doğan yeni nesil iletişim ajansı."
     }
   ]
 };
@@ -212,29 +223,87 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Portföy",
+  subtitle: "Beraber çalışmaktan keyif aldığım müşterilerim:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nurka.png"),
+      projectName: "Nur Kağıt Rulo",
+      projectDesc: "Web Tasarım - Yazılım",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Siteye Git",
+          url: "https://nurkagitrulo.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/arkhe.png"),
+      projectName: "Arkhe Eğitim ve Danışmanlık",
+      projectDesc: "Web Tasarım - Yazılım",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Siteye Git",
+          url: "https://arkheegitim.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/bgm.png"),
+      projectName: "Bigmamma's",
+      projectDesc: "QR Menü Yazılımı",
+      footerLink: [
+        {
+          name: "Siteye Git",
+          url: "http://qr.titanbilisim.net/bigmammas"
+        }
+        //  you can add extra buttons here.
+      ]
+    },  
+    {
+      image: require("./assets/images/sistem.png"),
+      projectName: "By Sistem Mühendislik",
+      projectDesc: "Web Yazılım ve IT Hizmetleri, Reklam Yönetimi",
+      footerLink: [
+        {
+          name: "Siteye Git",
+          url: "https://www.sistemyangin.com/",
+        }
+        //  you can add extra buttons here.
+      ]
+    }, 
+    {
+      image: require("./assets/images/nekretlogo.png"),
+      projectName: "Nekretnine Istanbul",
+      projectDesc: "Web Tasarım - Yazılım | Reklam Yönetimi",
+      footerLink: [
+        {
+          name: "Siteye Git",
+          url: "https://nekretnine.istanbul/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/zuraffa.png"),
+      projectName: "Zuraffa Store - K&K Duran",
+      projectDesc: "Web Tasarım - Yazılım",
+      footerLink: [
+        {
+          name: "Siteye Git",
+          url: "https://zuraffastore.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ipekde.png"),
+      projectName: "İpekde",
+      projectDesc: "Web Tasarım - Yazılım, Reklam Yönetimi",
+      footerLink: [
+        {
+          name: "Siteye Git",
+          url: "https://ipekde.com/"
         }
       ]
     }
@@ -300,7 +369,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -337,24 +406,25 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      title: "Test",
+      subtitle: "Test",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "My favorite podcasts",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://open.spotify.com/embed/show/6O7PH7tqLiERxXfxY9mIhB?utm_source=oembed", 
+    "https://open.spotify.com/embed/show/6HCwhbKxFO9URWPrvf6vs0?utm_source=oembed",
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -370,7 +440,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "berk_tarzan", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
